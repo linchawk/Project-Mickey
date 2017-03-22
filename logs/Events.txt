@@ -1,0 +1,41 @@
+*********Events starting from 03/25/2016 16:44:11*********
+25 March, 2016 4:44:14 PM IST	<DBOperations>
+Table 'project_mickey.general_info' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'project_mickey.general_info' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.Util.getInstance(Util.java:360)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2530)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1907)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2030)
+	at tech.behaviouring.pm.core.database.DBOperations.getValue(DBOperations.java:1039)
+	at tech.behaviouring.pm.core.applogic.StartupActions.areBaseTablesCreated(StartupActions.java:69)
+	at tech.behaviouring.pm.core.applogic.StartupActions.start(StartupActions.java:44)
+	at tech.behaviouring.pm.ui.Main.main(Main.java:12)
+25 March, 2016 4:44:15 PM IST	<Splash>
+Showing splash screen
+25 March, 2016 4:44:17 PM IST	<DBOperations>
+De-activated fingerprint templates of 0 inactive members
+*********Events starting from 03/25/2016 16:45:13*********
+25 March, 2016 4:45:14 PM IST	<Splash>
+Showing splash screen
+25 March, 2016 4:45:14 PM IST	<DBOperations>
+De-activated fingerprint templates of 0 inactive members
+*********Events starting from 03/25/2016 16:45:57*********
+25 March, 2016 4:45:58 PM IST	<Splash>
+Showing splash screen
+25 March, 2016 4:45:58 PM IST	<DBOperations>
+De-activated fingerprint templates of 0 inactive members
+*********Events starting from 03/25/2016 16:48:43*********
+25 March, 2016 4:48:44 PM IST	<Splash>
+Showing splash screen
+25 March, 2016 4:48:44 PM IST	<DBOperations>
+De-activated fingerprint templates of 0 inactive members
